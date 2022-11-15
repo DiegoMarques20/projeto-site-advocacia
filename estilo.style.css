@@ -3,7 +3,7 @@
 
 
 body {
-    font-family: 'Times New Roman', Times, serif
+    font-family: 'Fredoka', sans-serif;
 }
 
 h1, h2, h3 {
@@ -78,5 +78,10 @@ div.contato {
     width: 800px;
     margin: 0 auto;
     padding: 50px 20px;
+}
+
+h3.especial {
+
+    font-size: 23px;
 }
 
