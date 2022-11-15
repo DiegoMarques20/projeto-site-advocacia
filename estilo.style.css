@@ -6,6 +6,11 @@ body {
     font-family: 'Times New Roman', Times, serif
 }
 
+h1, h2, h3 {
+
+    margin: 0;
+}
+
 div.capa {
 
     background-image: url(imagens/capa.jpg);
@@ -16,5 +21,62 @@ div.capa {
 div.sessao-capa {
     text-align: right;
     padding: 50px 20px;
+    width: 800px;
+    margin: 0 auto;
     
 }
+
+div.sobre {
+
+    text-align: left;
+    width: 800px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+div > img.imgsobre {
+
+    width: 250px;
+    height: 180px;
+}
+
+div.sobre > p > span {
+
+    border-left: 1px solid;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+div.especial {
+
+    padding: 50px 0;
+    text-align: center;
+    background-image: url(imagens/fundo.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.especial2 > h3 {
+
+    font-size: 30px;
+    background-color: #ffff;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+div.area {
+
+    width: 800px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+div.contato {
+
+    width: 800px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
