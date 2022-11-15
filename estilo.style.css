@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+
+
+body {
+    font-family: 'Times New Roman', Times, serif
+}
+
+div.capa {
+
+    background-image: url(imagens/capa.jpg);
+    min-height: 500px;
+    background-size: cover;
+}
+
+div.sessao-capa {
+    text-align: right;
+    padding: 50px 20px;
+    
+}
