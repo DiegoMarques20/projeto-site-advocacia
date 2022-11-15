@@ -1,14 +1,24 @@
 @charset "UTF-8";
 
+img {
 
 
+    width: 100%;
+   
+}
 body {
     font-family: 'Fredoka', sans-serif;
+    min-width: 280px;
+    max-width: 800px;
+    margin: auto;
+    width: 100%;
 }
 
 h1, h2, h3 {
 
-    margin: 0;
+    min-width: 280px;
+    max-width: 800px;
+    margin: auto;
 }
 
 div.capa {
@@ -16,13 +26,21 @@ div.capa {
     background-image: url(imagens/capa.jpg);
     min-height: 500px;
     background-size: cover;
+    min-width: 280px;
+    max-width: 800px;
+    margin: auto;
+    width: 100%;
 }
 
 div.sessao-capa {
-    text-align: right;
+    text-align: center;
     padding: 50px 20px;
     width: 800px;
     margin: 0 auto;
+    min-width: 280px;
+    max-width: 800px;
+    margin: auto;
+    width: 100%;
     
 }
 
@@ -30,14 +48,23 @@ div.sobre {
 
     text-align: left;
     width: 800px;
-    margin: 0 auto;
     padding: 50px 20px;
+    min-width: 280px;
+    max-width: 800px;
+    margin: auto;
+    width: 100%;
+}
+
+div.sobre > p {
+    width: 100%;
+
 }
 
 div > img.imgsobre {
 
     width: 250px;
     height: 180px;
+
 }
 
 div.sobre > p > span {
@@ -69,15 +96,22 @@ div.especial2 > h3 {
 div.area {
 
     width: 800px;
-    margin: 0 auto;
     padding: 50px 20px;
+    min-width: 280px;
+    max-width: 800px;
+    margin: auto;
+    width: 100%;
+    
 }
 
 div.contato {
 
     width: 800px;
-    margin: 0 auto;
     padding: 50px 20px;
+    min-width: 280px;
+    max-width: 800px;
+    margin: auto;
+    width: 100%;
 }
 
 h3.especial {
