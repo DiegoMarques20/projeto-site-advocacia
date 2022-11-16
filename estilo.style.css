@@ -1,17 +1,14 @@
 @charset "UTF-8";
 
-img {
 
-
-    width: 100%;
-   
-}
 body {
     font-family: 'Fredoka', sans-serif;
     min-width: 280px;
     max-width: 800px;
     margin: auto;
     width: 100%;
+   
+    
 }
 
 h1, h2, h3 {
@@ -19,28 +16,30 @@ h1, h2, h3 {
     min-width: 280px;
     max-width: 800px;
     margin: auto;
+    width: 100%;
 }
 
 div.capa {
 
-    background-image: url(imagens/capa.jpg);
-    min-height: 500px;
+    background-image: url(imagens/img2.jpg);
     background-size: cover;
+    min-height: 500px;
     min-width: 280px;
     max-width: 800px;
     margin: auto;
     width: 100%;
+    
 }
 
 div.sessao-capa {
-    text-align: center;
+    text-align: left;
     padding: 50px 20px;
-    width: 800px;
     margin: 0 auto;
     min-width: 280px;
     max-width: 800px;
     margin: auto;
     width: 100%;
+
     
 }
 
@@ -82,6 +81,9 @@ div.especial {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    min-width: 280px;
+    max-width: 800px;
+    margin: auto;
 }
 
 div.especial2 > h3 {
@@ -91,6 +93,9 @@ div.especial2 > h3 {
     width: 200px;
     margin: 0 auto;
     border-radius: 20px;
+    min-width: 280px;
+    max-width: 800px;
+    margin: auto;
 }
 
 div.area {
