@@ -21,7 +21,7 @@ h1, h2, h3 {
 
 div.capa {
 
-    background-image: url(imagens/img2.jpg);
+    background-image: url(imagens/capa.jpg);
     background-size: cover;
     min-height: 500px;
     min-width: 280px;
@@ -32,7 +32,7 @@ div.capa {
 }
 
 div.sessao-capa {
-    text-align: left;
+    text-align: right;
     padding: 50px 20px;
     margin: 0 auto;
     min-width: 280px;
